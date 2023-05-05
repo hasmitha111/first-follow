@@ -37,12 +37,19 @@ The program assumes that the input grammar is in Chomsky Normal Form, and may no
 ## Sample Input
 
 Enter the Number of productions:
+
 4
+
 Enter the Productions:
+
 A=bBa
+
 B=baA
+
 C=aBc
+
 A=a
+
 Enter the elements whose first and follow is to be found: A
 
 Enter the elements whose first and follow is to be found: B
