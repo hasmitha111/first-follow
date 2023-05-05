@@ -31,5 +31,26 @@ To run the code, simply execute the compiled binary and follow the prompts:
 
 The program will prompt you to enter the number of productions, then the productions themselves, and then the non-terminal symbol for which the First and Follow sets are to be computed. The program will then output the First and Follow sets for the specified non-terminal symbol.
 
+## Notes
+The program assumes that the input grammar is in Chomsky Normal Form, and may not work correctly for grammars that do not meet this assumption. Additionally, the program assumes that the user enters valid input and does not perform input validation.
+
+## Sample Input
+
+Enter the Number of productions:
+4
+Enter the Productions:
+A=bBa
+B=baA
+C=aBc
+A=a
+Enter the elements whose first and follow is to be found: A
+
+Enter the elements whose first and follow is to be found: B
+
+Enter the elements whose first and follow is to be found: C
+
+
+
+
 
 
